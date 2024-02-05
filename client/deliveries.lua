@@ -74,6 +74,7 @@ RegisterNetEvent('md-drugs:client:openshopdealers', function()
 			end	   
         end     
     end
+	lib.showContext('dealermenu')
 end)
 local function RandomDeliveryItemOnRep()
     local myRep = QBCore.Functions.GetPlayerData().metadata["dealerrep"]
